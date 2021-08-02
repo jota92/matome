@@ -1,0 +1,14 @@
+/*! CSS Used from: https://themewagon.com/wp-content/themes/wagoncore/css/framework.css?ver=4.7.2 ; media=all */
+@media all{
+    @media print{
+    *,*:before,*:after{background:transparent!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+    }
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    *:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    }
+    /*! CSS Used from: https://themewagon.com/wp-content/themes/wagoncore/style.css?ver=4.7.2 ; media=all */
+    @media all{
+    *{outline:none!important;}
+    ::selection{background-color:rgba(112, 144, 40, 0.71);color:rgb(0, 0, 0);}
+    .shed-1{position:absolute;top:1;left:1;height:100%;width:100%;}
+    }
