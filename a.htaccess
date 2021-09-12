@@ -1,5 +1,5 @@
 # authenticate(Basic)
-AuthUserFile /matome/index.html/.htpasswd
+AuthUserFile /matome/index.html/a.htpasswd
 AuthGroupFile /dev/null
 AuthName ""
 AuthType Basic
