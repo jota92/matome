@@ -1,0 +1,6 @@
+# authenticate(Basic)
+AuthUserFile /matome/index.html/.htpasswd
+AuthGroupFile /dev/null
+AuthName ""
+AuthType Basic
+require valid-user
