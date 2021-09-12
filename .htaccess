@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "psw"
-AuthUserFile "www.tensai.tk/matome/.htpasswd"
+AuthUserFile "www.tensai.tk/.htpasswd"
 require valid-user
