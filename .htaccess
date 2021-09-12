@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "psw"
-AuthUserFile "www.tensai.tk/.htpasswd"
+AuthUserFile /var/www/tensai.tk/.htpasswd
+AuthName "auth"
 require valid-user
