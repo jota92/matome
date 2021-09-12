@@ -1,6 +1,4 @@
-# authenticate(Basic)
-AuthUserFile /matome/a.htpasswd
-AuthGroupFile /dev/null
-AuthName ""
 AuthType Basic
+AuthName "psw"
+AuthUserFile "matome/.htpasswd"
 require valid-user
