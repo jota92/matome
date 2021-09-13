@@ -1,4 +1,4 @@
 AuthType Basic
-AuthUserFile /var/www/tensai.tk/.htpasswd
+AuthUserFile /home/tensai.tk/www/public/index.html/.htpasswd
 AuthName "auth"
 require valid-user
