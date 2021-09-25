@@ -1,4 +1,0 @@
-AuthType Basic
-AuthUserFile /home/tensai.tk/www/public/index.html/.htpasswd
-AuthName "auth"
-require valid-user
