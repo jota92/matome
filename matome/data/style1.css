@@ -1,0 +1,16 @@
+#link{
+  font-size:1em;
+  margin:10px 0;
+}
+
+
+.target{
+  animation: flowing 8s linear infinite;
+  transform: translateX(100%);
+}
+
+@keyframes flowing {
+  100% {
+    transform: translateX(-100%);
+  }
+}
