@@ -1,3 +1,3 @@
 setTimeout(function(){
-    window.location.href = 'main/index.html';
+    window.location.href = 'matome/index.html';
   }, 1.5*1000);
