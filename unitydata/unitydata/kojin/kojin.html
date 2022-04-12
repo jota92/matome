@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>unity data配布</title>
+
+<link rel="shortcut icon" href="index_files/logo.png" type="image/vnd.microsoft.icon">
+<meta name="description"  content="プロビルダー配布用">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="6-3-1.css">
+</head>
+
+<body>
+<header id="header">
+  <!--==============メインのデータ===============-->
+
+  <p class="sample_h_6">休憩のかわりにunityを使ってみませんか？〈個人〉</p>
+
+  <a class="button" href="https://drive.google.com/uc?export=download&id=1Jw99Kfsw5z5agSw2a9aSpDxawJLh5CmK">一番新しいやつ</a>
+  <a class="button1" href="https://drive.google.com/drive/folders/1oTT4AvJexy2SZwb5yTT9IY94Q1uSUTU4?usp=sharing">過去のやつ</a>
+
+  <img src="kanba_kyuukeichuu.png" style="display: block; margin: auto;">
+  
+   <!--==============メインのデータ===============-->
+    <div id="video-area">
+  <video id="video" poster="acb.png" webkit-playsinline playsinline muted autoplay loop>
+    <!--
+        poster：動画ファイルが利用できない環境で代替表示される画像
+        webkit-playsinline：iOS 9までのSafari用インライン再生指定
+        playsinline：iOS 10以降のSafari用インライン再生指定
+        muted：音声をミュートさせる
+        autoplay：動画を自動再生させる
+        loop：動画をループさせる
+        controls：コントロールバーを表示する
+    -->
+  <source src="https://drive.google.com/uc?id=1OF83bEkrTqO40Y2BStAUkL4-4tES0yac" type="video/mp4">
+  <source src="https://drive.google.com/uc?id=1OF83bEkrTqO40Y2BStAUkL4-4tES0yac" type="video/ogv">
+  <source src="https://drive.google.com/uc?id=1OF83bEkrTqO40Y2BStAUkL4-4tES0yac" type="video/webm">
+  <p>動画を再生できる環境ではありません。</p>
+  </video>
+    <!--/video-area--></div>
+</header>
+
+
+</html>
