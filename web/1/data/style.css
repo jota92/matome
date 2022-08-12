@@ -1,0 +1,22 @@
+/* 画面幅の50%の幅で画像を表示 */
+.image-vw {
+  width :70vw ; 
+}
+
+
+.box {
+  background-color: #cccccc;
+}
+
+p {
+  text-align: center;
+}
+
+body,html{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://display-check.com/wp-content/uploads/2020/02/DXHyEYj81u6yAoh1581349161_1581349618.png");
+  background-size: cover;
+}
