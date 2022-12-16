@@ -1,0 +1,14 @@
+/* 画面幅の50%の幅で画像を表示 */
+.image-vw {
+  width :70vw ; 
+}
+
+
+.box {
+  background-color: #cccccc;
+}
+
+p {
+  text-align: center;
+}
+
